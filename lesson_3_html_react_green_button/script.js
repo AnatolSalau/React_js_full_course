@@ -1,11 +1,16 @@
 //Create element by JSX
-const Button =
+console.log('Hello from js')
+
+const App = (
     <div className="app">
-        <button onClick="" >
+        <button onClick="">
             Click me
         </button>
     </div>
+);
+const containerJSX = document
+    .getElementById('app');
+const rootJsx = ReactDOM
+    .createRoot(containerJSX);
 
-const containerJSX = document.getElementById('button-1');
-const  rootJsx = ReactDOM.createRoot(containerJSX);
-rootJsx.render();
+rootJsx.render(App);
