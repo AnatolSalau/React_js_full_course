@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/React_js_full_course.iml" filepath="$PROJECT_DIR$/.idea/React_js_full_course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_1_html_02_hello_world/lesson_1_html_02_hello_world.iml" filepath="$PROJECT_DIR$/lesson_1_html_02_hello_world/lesson_1_html_02_hello_world.iml" />
+    </modules>
+  </component>
+</project>
