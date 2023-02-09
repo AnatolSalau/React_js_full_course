@@ -1,6 +1,6 @@
 console.log("hello from script src")
 
-//Create element by JSX
+//Create functional component
 const App = () => {
     /**
      * Hook useState
