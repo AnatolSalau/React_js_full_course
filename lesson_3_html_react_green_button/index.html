@@ -2,22 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>React green button</title>
+    <title>JSX hello world</title>
     <script src="libs/react.development.js"></script>
     <script src="libs/react-dom.development.js"></script>
     <script src="libs/babel.min.js"></script>
-    <script src="script.js" type="text/babel"></script>
-    <style>
-        .app {
-            text-align: center;
-        }
-        .green-btn {
-            color: white;
-            background-color: green;
-        }
-    </style>
 </head>
 <body>
-    <div id="button-1"></div>
+    <div id="appReact"></div>
+    <div id="appJsx"></div>
 </body>
+<script type="text/babel">
+    //Create element by React
+    const helloWorldReactHeading = React.createElement(
+        'h1',
+        null,
+        'Hello from React'
+    );
+
+    //Render element by React
+    const containerReact = document.getElementById('appReact');
+    const  rootReact = ReactDOM.createRoot(containerReact);
+    rootReact.render(helloWorldReactHeading);
+
+    //Create element by JSX
+    const helloWorldJsxHeading =
+        <h1>
+            Hello from JSX
+        </h1>;
+
+        /*The same as code above*/
+/*        React.createElement(
+            'h1',
+            null,
+            'Hello from JSX'
+        );*/
+    const containerJSX = document.getElementById('appJsx');
+    const  rootJsx = ReactDOM.createRoot(containerJSX);
+    rootJsx.render(helloWorldJsxHeading);
+</script>
 </html>
