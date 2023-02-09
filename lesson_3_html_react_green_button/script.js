@@ -8,21 +8,25 @@ const App = () => {
      * initial value is buttonText = 'Click me' (buttonText = 'Click me')
      * !!! setButtonText - it is function -> we must call a function
      */
-    let [buttonText, setButtonText] = React.useState('Click me');
-    
+    const [buttonText, setButtonText] = React.useState('Click me');
+    const [buttonClass, setButtonClass] = React.useState('default-btn');
+    //Function which call when we click button
+    // Use Template literals, back quotes
     const onButtonClick = ()=> {
-        setButtonText('Hello from react');
+        setButtonText(`Hello from react, ${Math.random()}`);
+        setButtonClass('green-btn');
     };
     
     return (
-        <div className = "default-btn">
-            <button onClick = {onButtonClick}>
+        <div >
+            <button className = {buttonClass} onClick = {onButtonClick}>
                 {buttonText}
             </button>
         </div>
     );
 }
 
+//Render component on page
 const containerJSX = document.getElementById('appJsx');
 const  rootJsx = ReactDOM.createRoot(containerJSX);
 rootJsx.render(<App />);
