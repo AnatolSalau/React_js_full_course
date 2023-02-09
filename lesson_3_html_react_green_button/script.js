@@ -1,3 +1,12 @@
+const alarm = {
+    width: 200,
+    text: 'Buy'
+}
+const redAlarm = {
+    ...alarm,
+    color: 'red'
+}
+console.log(redAlarm)
 console.log("hello from script src")
 
 /**
