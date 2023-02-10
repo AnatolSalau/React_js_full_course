@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="91 template project - initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91_template_project/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91_template_project/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91_template_project/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91_template_project/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91_template_project/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/91_template_project/public/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,10 +57,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/91_template_project/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.91_template_project start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -120,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676023656040</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="91 template project - initial commit">
+      <created>1676023869645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676023869645</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
