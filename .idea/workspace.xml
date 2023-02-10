@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="delete lesson 6">
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/lesson_7_reusable_component.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/components/MyComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/components/OtherComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Build React app without server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
