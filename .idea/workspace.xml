@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="91 template project - initial commit" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Add favicon" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -40,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/91_template_project/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson_7_reusable_component/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -48,10 +55,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\REACT\Projects\React_js_full_course\lesson_7_reusable_component\src\components" />
+      <recent name="D:\REACT\Projects\React_js_full_course\lesson_7_reusable_component" />
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.91_template_project start">
+  <component name="RunManager" selected="npm.run (lesson 7 reusable component)">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -70,6 +79,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run (lesson 7 reusable component)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/lesson_7_reusable_component/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -135,14 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676023869645</updated>
     </task>
-    <task id="LOCAL-00005" summary="91 template project - initial commit">
-      <created>1676028953140</created>
+    <task id="LOCAL-00005" summary="lesson 7 reusable component initial commit">
+      <created>1676029958192</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1676028953140</updated>
+      <updated>1676029958192</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="delete lesson 6">
+      <created>1676030010877</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676030010877</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +189,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="91 template project - initial commit" />
+    <MESSAGE value="lesson 7 reusable component initial commit" />
+    <MESSAGE value="delete lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete lesson 6" />
   </component>
 </project>
