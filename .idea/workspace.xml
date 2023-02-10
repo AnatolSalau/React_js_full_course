@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="91 template project - initial commit">
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/setupTests.js" beforeDir="false" />
-    </list>
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="91 template project - initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -152,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676023869645</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="91 template project - initial commit">
+      <created>1676028953140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676028953140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
