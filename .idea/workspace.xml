@@ -1,35 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="91 template project - initial commit">
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/91_template_project/public/site.webmanifest" afterDir="false" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="delete lesson 6">
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/lesson_7_reusable_component.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/components/MyComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/components/OtherComponent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_7_reusable_component/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -57,7 +69,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/91_template_project/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson_7_reusable_component/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -65,10 +77,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\REACT\Projects\React_js_full_course\lesson_7_reusable_component\src\components" />
+      <recent name="D:\REACT\Projects\React_js_full_course\lesson_7_reusable_component" />
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.91_template_project start">
+  <component name="RunManager" selected="npm.run (lesson 7 reusable component)">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -87,6 +101,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run (lesson 7 reusable component)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/lesson_7_reusable_component/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -152,7 +176,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676023869645</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson 7 reusable component initial commit">
+      <created>1676029958192</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676029958192</updated>
+    </task>
+    <task id="LOCAL-00006" summary="delete lesson 6">
+      <created>1676030010877</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676030010877</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +211,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="91 template project - initial commit" />
+    <MESSAGE value="lesson 7 reusable component initial commit" />
+    <MESSAGE value="delete lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete lesson 6" />
   </component>
 </project>
