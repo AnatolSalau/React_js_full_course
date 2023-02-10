@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/React_js_full_course.iml" filepath="$PROJECT_DIR$/.idea/React_js_full_course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_9_conditional_rendering.iml" filepath="$PROJECT_DIR$/lesson_9_conditional_rendering.iml" />
     </modules>
   </component>
 </project>
