@@ -1,16 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="91 template project - initial commit" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson 9 props">
+      <change afterPath="$PROJECT_DIR$/lesson_10_states.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/components/RandomNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/utils/generateWholeRandomNumFromZero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lesson_9_conditional_rendering" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,6 +56,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectId" id="2LVnf5iOAoxwc0XptrKQvVniAFe" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,62 +67,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/91_template_project/public" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.linters.configure.manually.selectedeslint": "true",
+    "last_opened_file_path": "D:/ReactDevelop/Projects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "C:\\Program Files\\nodejs\\node_modules\\eslint",
+    "node.js.selected.package.standard": "",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "settings.javascript.linters.eslint"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ReactDevelop\Projects\React_js_full_course\lesson_10_states" />
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.91_template_project start">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
-      <method v="2" />
-    </configuration>
-    <configuration name="91_template_project start" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/91_template_project/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/lesson_6_create_react_app/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/lesson_6_create_react_app/package.json" />
+      <package-json value="$PROJECT_DIR$/lesson_10_states/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/lesson_6_create_react_app/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="test" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -113,6 +122,10 @@
       <updated>1676017846561</updated>
       <workItem from="1676017848114" duration="21000" />
       <workItem from="1676018396904" duration="1815000" />
+      <workItem from="1676110336353" duration="1476000" />
+      <workItem from="1676111886729" duration="428000" />
+      <workItem from="1676112401599" duration="334000" />
+      <workItem from="1676113188212" duration="2722000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -164,5 +177,9 @@
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="91 template project - initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
