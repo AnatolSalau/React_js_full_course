@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson 9 props">
-      <change afterPath="$PROJECT_DIR$/lesson_10_states.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/public/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/components/RandomNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_10_states/src/utils/generateWholeRandomNumFromZero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson 9 props" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +102,7 @@
       <workItem from="1676110336353" duration="1476000" />
       <workItem from="1676111886729" duration="428000" />
       <workItem from="1676112401599" duration="334000" />
-      <workItem from="1676113188212" duration="2722000" />
+      <workItem from="1676113188212" duration="3113000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -155,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676028953140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson 9 props">
+      <created>1676116131497</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676116131497</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +160,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="91 template project - initial commit" />
+    <MESSAGE value="lesson 9 props" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 9 props" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
