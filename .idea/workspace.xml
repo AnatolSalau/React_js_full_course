@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="91 template project - initial commit" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="91 template project - initial commit">
+      <change afterPath="$PROJECT_DIR$/lesson_11_state_via_props.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_11_state_via_props/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_11_state_via_props/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_11_state_via_props/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/public/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/public/android-chrome-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/public/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/public/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/public/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/public/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/public/site.webmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_11_state_via_props/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,24 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/91_template_project/public" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/ReactDevelop/Projects/React_js_full_course/lesson_11_state_via_props",
+    "nodejs_interpreter_path": "node"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ReactDevelop\Projects\React_js_full_course\lesson_11_state_via_props" />
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ReactDevelop\Projects\React_js_full_course\lesson_11_state_via_props" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.91_template_project start">
+  <component name="RunManager" selected="npm.start (1)">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -70,6 +89,16 @@
       <command value="run" />
       <scripts>
         <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (1)" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lesson_11_state_via_props/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -164,5 +193,9 @@
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="91 template project - initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
