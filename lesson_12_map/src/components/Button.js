@@ -1,8 +1,8 @@
-function Button({onClick}) {
+function Button({onClick, text}) {
     console.log('Button render')
     return (
         <button onClick={onClick}>
-            Click me!
+            {text}
         </button>
     )
 }

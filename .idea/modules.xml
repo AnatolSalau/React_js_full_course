@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/React_js_full_course.iml" filepath="$PROJECT_DIR$/.idea/React_js_full_course.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lesson_11_state_via_props.iml" filepath="$PROJECT_DIR$/lesson_11_state_via_props.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lesson_12_map.iml" filepath="$PROJECT_DIR$/lesson_12_map.iml" />
     </modules>
   </component>
 </project>

@@ -7,17 +7,26 @@ import Counter from "./components/Counter";
 function App() {
     console.log('App render')
     const [count, setCount] = useState(0);
-     const incrementCount = () => {
+    const incrementCount = () => {
        setCount(count + 1);
          console.log(count)
     }
+
+    const texts = [
+        'Click me',
+        'Click me please',
+        'Hit me',
+        'Press me',
+        'Click me again'
+    ];
     return (
     <div className="App">
         <Counter count={count}/>
-        <Button onClick={incrementCount} />
-        <Button onClick={incrementCount} />
-        <Button onClick={incrementCount} />
-        <Button onClick={incrementCount} />
+        {
+            texts.map((text, index)=> {
+                return <Button onClick={incrementCount} text={text} key={index} />
+            })
+        }
     </div>
     );
 }
