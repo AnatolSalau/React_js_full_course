@@ -1,7 +1,9 @@
-function Person() {
+function Person({firstName, lastName, email, img }) {
     return (
-        <div>
-
+        <div className="card">
+            <p>{firstName} {lastName}</p>
+            <p>{email}</p>
+            <img src={img} alt="Logo" />
         </div>
     );
 }

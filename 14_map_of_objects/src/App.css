@@ -1,4 +1,19 @@
 .App {
   text-align: center;
 }
-
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  margin: 15px;
+  width: 250px;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+}
+.card > img {
+  width: 100%;
+  border-radius: 10px;
+}
