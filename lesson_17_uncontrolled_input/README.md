@@ -1,4 +1,4 @@
-# Template React app
+# Lesson 17 uncontrolled input
 
 ## Available Scripts
 
