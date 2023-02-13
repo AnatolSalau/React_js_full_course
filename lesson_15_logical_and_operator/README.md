@@ -1,4 +1,4 @@
-# Template React app
+# Logical and operator
 
 ## Available Scripts
 
