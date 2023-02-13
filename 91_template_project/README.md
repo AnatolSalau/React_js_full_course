@@ -1,4 +1,4 @@
-# Template React app
+# Lesson 20 useEffect
 
 ## Available Scripts
 
