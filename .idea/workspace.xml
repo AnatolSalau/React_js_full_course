@@ -3,22 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_20_use_effect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_20_use_effect/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_20_use_effect/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_20_use_effect/public/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/public/webmanifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_20_use_effect/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_20_use_effect/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +61,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lesson_20_use_effect/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/lesson_20_use_effect/package.json" />
       <command value="run" />
@@ -85,6 +83,7 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
     </list>
   </component>
@@ -157,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676294349248</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lesson_20_use_effect">
+      <created>1676307261724</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676307261724</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +185,7 @@
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
     <MESSAGE value="lesson_19_children_property" />
+    <MESSAGE value="lesson_15_logical and operator" />
     <MESSAGE value="lesson_20_use_effect" />
     <option name="LAST_COMMIT_MESSAGE" value="lesson_20_use_effect" />
   </component>
