@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_19_children_property">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_20_use_effect">
+      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/91_template_project/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +102,7 @@
       <workItem from="1676017848114" duration="21000" />
       <workItem from="1676018396904" duration="1815000" />
       <workItem from="1676291998647" duration="2085000" />
+      <workItem from="1676294142899" duration="570000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -138,7 +139,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676293413520</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson_20_use_effect">
+      <created>1676294229030</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676294229030</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson_20_use_effect">
+      <created>1676294349248</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676294349248</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +175,7 @@
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
     <MESSAGE value="lesson_19_children_property" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_19_children_property" />
+    <MESSAGE value="lesson_20_use_effect" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_20_use_effect" />
   </component>
 </project>
