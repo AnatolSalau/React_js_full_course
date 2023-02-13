@@ -3,8 +3,9 @@ import {useState} from "react";
 import './App.css';
 import Button from "./components/Button";
 import Counter from "./components/Counter";
+import Reload from "./components/Reload";
 
-import toIncrement from "./utils/toIncrement";
+
 
 function App() {
     const [count, setCount] = useState(0);
@@ -13,7 +14,6 @@ function App() {
        setCount(count + 1);
     }
 
-    toIncrement();
 
 
     //Reset value in Counter by useState hook
@@ -42,29 +42,13 @@ function App() {
         {/*Use "&&" instead of "if"*/}
         {
             count > 0 && (
-                <div>
-                    <button
-                        // add custom style by JS object
-                        style={{ backgroundColor: 'lightgreen' }}
-                        onClick={resetCount}
-                    >
-                        Reset!
-                    </button>
-                </div>
+                <Reload onClick={resetCount}/>
             )
         }
         {/* Or we can use ternary operator */}
         {
             count > 0 ? (
-                <div>
-                    <button
-                        // add custom style by JS object
-                        style={{ backgroundColor: 'lightgreen' }}
-                        onClick={resetCount}
-                    >
-                        Reset!
-                    </button>
-                </div>
+                <Reload onClick={resetCount}/>
             ) : null
         }
     </div>
