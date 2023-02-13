@@ -1,4 +1,4 @@
-# Template React app
+# Lesson 19 children property
 
 ## Available Scripts
 
