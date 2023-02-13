@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_15_logical_and_operator initial commit">
-      <change afterPath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/components/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/components/Counter.js" afterDir="false" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_15_logical_and_operator and operator">
+      <change afterPath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/components/Reset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/utils/toIncrement.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_15_logical_and_operator/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -98,7 +103,7 @@
       <updated>1676017846561</updated>
       <workItem from="1676017848114" duration="21000" />
       <workItem from="1676018396904" duration="1815000" />
-      <workItem from="1676270010885" duration="4083000" />
+      <workItem from="1676270010885" duration="6186000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -135,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676270311334</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson_15_logical_and_operator and operator">
+      <created>1676274329487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676274329487</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +169,7 @@
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
     <MESSAGE value="lesson_15_logical_and_operator initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_15_logical_and_operator initial commit" />
+    <MESSAGE value="lesson_15_logical_and_operator and operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_15_logical_and_operator and operator" />
   </component>
 </project>
