@@ -2,28 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_15_logical_and_operator and operator">
+      <change afterPath="$PROJECT_DIR$/lesson_16_react_fragment/src/components/Card.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/public/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/public/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/public/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/public/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/91_template_project/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16_react_fragment/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_16_react_fragment/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_16_react_fragment/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -105,7 +99,7 @@
       <updated>1676017846561</updated>
       <workItem from="1676017848114" duration="21000" />
       <workItem from="1676018396904" duration="1815000" />
-      <workItem from="1676276995805" duration="132000" />
+      <workItem from="1676276995805" duration="1182000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -135,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676028953140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lesson_15_logical_and_operator and operator">
+      <created>1676277197965</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676277197965</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +157,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Build React app without server" />
     <MESSAGE value="91 template project - initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="91 template project - initial commit" />
+    <MESSAGE value="lesson_15_logical_and_operator and operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_15_logical_and_operator and operator" />
   </component>
 </project>
