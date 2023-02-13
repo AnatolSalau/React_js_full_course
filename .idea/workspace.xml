@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_17_uncontrolled_input" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_17_uncontrolled_input">
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/public/android-chrome-192x192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/public/android-chrome-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/public/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/public/site.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/src/components/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_18_controlled_input/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/public/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/public/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/public/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/public/favicon-16x16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/public/favicon-32x32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/public/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/src/components/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_17_uncontrolled_input/src/index.js" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +53,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_16_react_fragment" />
+        <entry key="$PROJECT_DIR$" value="lesson_17_unconntrolled_input" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +104,7 @@
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/lesson_17_uncontrolled_input/package.json" />
+      <package-json value="$PROJECT_DIR$/lesson_18_controlled_input/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -100,7 +136,8 @@
       <workItem from="1676017848114" duration="21000" />
       <workItem from="1676018396904" duration="1815000" />
       <workItem from="1676276995805" duration="1746000" />
-      <workItem from="1676279940934" duration="3876000" />
+      <workItem from="1676279940934" duration="4005000" />
+      <workItem from="1676286055993" duration="3783000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -158,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676285803664</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="lesson_17_uncontrolled_input">
+      <created>1676285917287</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676285917287</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

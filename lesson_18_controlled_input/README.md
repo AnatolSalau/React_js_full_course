@@ -1,4 +1,4 @@
-# Lesson 17 uncontrolled input
+# Lesson 18 uncontrolled input
 
 ## Available Scripts
 
