@@ -1,4 +1,4 @@
-# Template React app
+# JSON placeholder
 
 ## Available Scripts
 
