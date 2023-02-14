@@ -1,26 +1,17 @@
-import {useEffect, useState} from "react";
+function Post({props}) {
+    console.log(props.id)
 
-function Post() {
-    console.log('App render')
-    //Data from server
-    const [data, setData] = useState(null);
-
-    //Request to server by useEffect
-    useEffect(()=> {
-            fetch('https://jsonplaceholder.typicode.com/posts')
-                .then(response => response.json())
-                .then(json => {
-                    setData(json);
-                })
-        }, []
-    );
-    console.log(data)
+    const propsMap = Object.entries(props).map(([key,value])=>{
+        return (
+            <div key={key}>{key} : {value.toString()}</div>
+        );
+    })
 
     return (
-        <h1>
-            This is post
-        </h1>
-    );
+        <div key={props.id}>
+            {propsMap}
+        </div>
+    )
 }
 
 export default Post;

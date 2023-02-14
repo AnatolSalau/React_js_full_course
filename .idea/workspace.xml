@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_20_use_effect">
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_21_json_placeholder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676361103559</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lesson_21_json_placeholder">
+      <created>1676365261396</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676365261396</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +199,8 @@
     <MESSAGE value="lesson_19_children_property" />
     <MESSAGE value="lesson_15_logical and operator" />
     <MESSAGE value="lesson_20_use_effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_20_use_effect" />
+    <MESSAGE value="lesson_21_json_placeholder" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_21_json_placeholder" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
