@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_20_use_effect">
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_21_json_placeholder/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Post.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
