@@ -2,9 +2,10 @@ import Post from "./Post";
 
 function Posts() {
     return (
-        <h1>
-
-        </h1>
+        <div>
+            <Post />
+            <Post />
+        </div>
     );
 }
 
