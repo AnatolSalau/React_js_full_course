@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_23_css_modules" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v1">
+      <change afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoForm.module.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +60,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\REACT\Projects\React_js_full_course\lesson_24_todo_app_v1\src\components\Todos" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -236,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676463069033</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="lesson_24_todo_app_v1">
+      <created>1676463425689</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1676463425689</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +276,8 @@
     <MESSAGE value="lesson_21_json_placeholder" />
     <MESSAGE value="lesson_22_use_effect_async_await" />
     <MESSAGE value="lesson_23_css_modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_23_css_modules" />
+    <MESSAGE value="lesson_24_todo_app_v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_24_todo_app_v1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
