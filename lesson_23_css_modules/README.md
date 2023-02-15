@@ -1,4 +1,4 @@
-# Template React app
+# lesson 23 css modules
 
 ## Available Scripts
 
