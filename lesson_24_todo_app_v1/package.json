@@ -1,5 +1,6 @@
 {
-  "name": "91_template_project",
+  "homepage": "./",
+  "name": "lesson_24_todo_app_v1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

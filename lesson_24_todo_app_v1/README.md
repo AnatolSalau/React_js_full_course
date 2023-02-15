@@ -1,4 +1,4 @@
-# Template React app
+# Lesson 24 todo app v1
 
 ## Available Scripts
 
