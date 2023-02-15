@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v1">
-      <change afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoForm.module.css" afterDir="false" />
-    </list>
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676463425689</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="lesson_24_todo_app_v1">
+      <created>1676463660822</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1676463660822</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
