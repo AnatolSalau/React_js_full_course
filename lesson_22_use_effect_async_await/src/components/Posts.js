@@ -15,8 +15,45 @@ function Posts() {
     //after loading data -> isLoading = false
     const [isLoading, setIsLoading] = useState(true);
 
-
-    //Request to server by useEffect
+    //Request to server by useEffect by Async Await with IIFE
+    // (Immediately Invoked Function Expression)
+    useEffect( ()=> {
+            // Immediately Invoked Function Expression
+            (async function() {
+                try {
+                    //Get JSON from url
+                    const res = await fetch(API_URL);
+                    //Convert JSON to array
+                    const posts = await res.json();
+                    setDataPosts(posts);
+                } catch (error) {
+                    setError(error.message);
+                }
+                setIsLoading(false);
+            })()
+        }, []
+    );
+/*
+    //Request to server by useEffect by Async Await with classic function
+    useEffect( ()=> {
+            async function fetchData() {
+                try {
+                    //Get JSON from url
+                    const res = await fetch(API_URL);
+                    //Convert JSON to array
+                    const posts = await res.json();
+                    setDataPosts(posts);
+                } catch (error) {
+                    setError(error.message);
+                }
+                setIsLoading(false);
+            }
+            fetchData();
+        }, []
+    );
+*/
+/*
+    //Request to server by useEffect by Promise
     useEffect(()=> {
             fetch(API_URL)
                 .then(response => response.json())
@@ -31,7 +68,7 @@ function Posts() {
                 })
         }, []
     );
-
+*/
     //Render error if error true
     if (error) {
         return (
