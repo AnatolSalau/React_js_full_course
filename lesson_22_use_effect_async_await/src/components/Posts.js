@@ -29,6 +29,7 @@ function Posts() {
                 } catch (error) {
                     setError(error.message);
                 }
+                //set false after getting data from server
                 setIsLoading(false);
             })()
         }, []
@@ -46,6 +47,7 @@ function Posts() {
                 } catch (error) {
                     setError(error.message);
                 }
+                //set false after getting data from server
                 setIsLoading(false);
             }
             fetchData();
@@ -64,6 +66,7 @@ function Posts() {
                     setError(error.message)
                 })
                 .finally(() => {
+                    //set false after getting data from server
                     setIsLoading(false);
                 })
         }, []

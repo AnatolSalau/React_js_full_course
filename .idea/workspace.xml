@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_21_json_placeholder">
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_22_use_effect_async_await">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/public/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/public/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/public/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/public/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Post.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/components/Post.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/components/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/components/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_21_json_placeholder/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/components/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_22_use_effect_async_await/src/components/Posts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +102,7 @@
       <workItem from="1676294142899" duration="570000" />
       <workItem from="1676360663730" duration="822000" />
       <workItem from="1676442013451" duration="243000" />
-      <workItem from="1676442269921" duration="6482000" />
+      <workItem from="1676442269921" duration="7334000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -220,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676446720655</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="lesson_22_use_effect_async_await">
+      <created>1676449687472</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676449687472</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +234,8 @@
     <MESSAGE value="lesson_15_logical and operator" />
     <MESSAGE value="lesson_20_use_effect" />
     <MESSAGE value="lesson_21_json_placeholder" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_21_json_placeholder" />
+    <MESSAGE value="lesson_22_use_effect_async_await" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_22_use_effect_async_await" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
