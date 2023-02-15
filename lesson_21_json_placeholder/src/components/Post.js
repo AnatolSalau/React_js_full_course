@@ -1,5 +1,7 @@
-function Post({props}) {
+import './Post.css'
 
+function Post({props}) {
+    //Get all props from object by Object.entries()
     const propsMap = Object.entries(props).map(([key,value])=>{
         return (
             <div key={key}><h3>{key} : {value.toString()}</h3></div>
@@ -7,7 +9,7 @@ function Post({props}) {
     })
 
     return (
-        <div key={props.id} style={{padding:10}}>
+        <div key={props.id} className="post">
             {propsMap}
 
         </div>
