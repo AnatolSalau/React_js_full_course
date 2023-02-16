@@ -22,7 +22,10 @@ function App() {
         <div className="App">
             <h1>Doctor app</h1>
             <TodoForm onClick={addTodoToList} />
-            <TodoList todoList={todoList}/>
+            <TodoList
+                todoList={todoList}
+                deleteTodo={deleteTodoFromList}
+            />
         </div>
     );
 }

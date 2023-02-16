@@ -1,7 +1,7 @@
 import Todo from "./Todo";
 import style from './TodoList.module.css'
 
-function TodoList({todoList}) {
+function TodoList({todoList, deleteTodo}) {
     return (
         <div className={style.todoList}>
             {
@@ -9,7 +9,11 @@ function TodoList({todoList}) {
                 ? (todoList.map(
                     (todo, index) => {
                         return (
-                            <Todo key={index} todo={todo} />
+                            <Todo
+                                key={index}
+                                todo={todo}
+                                deleteTodo={deleteTodo}
+                            />
                         )
                     })
                 )
