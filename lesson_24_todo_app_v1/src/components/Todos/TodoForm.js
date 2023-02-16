@@ -1,11 +1,14 @@
 import style from './TodoForm.module.css'
 import {useState} from "react";
 
-function TodoForm() {
+function TodoForm({onClick}) {
 
     //Initialize data in inputs by object
     const [data, setData] = useState(
-        {todo: 'initial todo'}
+        {
+            id: 0,
+            text: 'initial todo'
+        }
     );
 
     //Handle input when press submit
@@ -13,7 +16,8 @@ function TodoForm() {
         //Stop reload page when we press submit
         event.preventDefault();
         //Logic
-        console.log("Submit was pressed, data : " + data.todo)
+        console.log("Submit was pressed, data : " + data.text)
+        onClick(data);
     }
 
     //Handle changing in input dynamically
@@ -23,18 +27,23 @@ function TodoForm() {
       )
     }
 
+
     return (
         <form className={style.todoForm} onSubmit={handleInputSubmit}>
             <input
                 type="text"
-                value={data.todo}
+                value={data.text}
                 onChange={
                     (event) => {
-                        handleInputChange(event, 'todo');
+                        handleInputChange(event, 'text');
                     }
                 }
             />
-            <button type="submit">Submit</button>
+            <button
+                type="submit"
+            >
+                Submit
+            </button>
         </form>
     )
 }

@@ -1,8 +1,8 @@
 import style from './Todo.module.css'
-function Todo() {
+function Todo({todo}) {
     return (
         <div className={style.todo}>
-            This is a rectangle!
+            {`ID : ${todo.id}, text : ${todo.text}`}
         </div>
     )
 }
