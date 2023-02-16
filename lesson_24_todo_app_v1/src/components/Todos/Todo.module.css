@@ -10,5 +10,8 @@
     background-color: #fbfef9;
     user-select: none;
     text-align: left;
-    width: 400px;
+    width: 100%;
+}
+.todo:hover {
+    background-color: rgb(240, 240, 155);
 }
