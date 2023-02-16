@@ -11,6 +11,13 @@ function App() {
         setTodoList([...todoList, todo]);
     }
 
+    const deleteTodoFromList = (id) => {
+        setTodoList(todoList.filter(
+            (todo) => {
+                return todo.id !== id;
+            }
+        ));
+    }
     return (
         <div className="App">
             <h1>Doctor app</h1>
