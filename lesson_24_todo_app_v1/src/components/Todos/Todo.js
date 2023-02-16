@@ -1,3 +1,4 @@
+import { RiTodoFill } from 'react-icons/ri'
 import style from './Todo.module.css'
 
 function Todo({todo, deleteTodo}) {
