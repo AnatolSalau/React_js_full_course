@@ -5,7 +5,7 @@ function TodoList({todoList}) {
     return (
         <div className={style.todoList}>
             {
-                todoList.length === '0'
+                todoList.length > 0
                 ? (todoList.map(
                     (todo, index) => {
                         return (
