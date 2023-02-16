@@ -6,7 +6,7 @@ function TodoForm({onClick}) {
     //Initialize data in inputs by object
     const [data, setData] = useState(
         {
-            id: 0,
+            id: 1,
             text: 'initial todo'
         }
     );
@@ -17,7 +17,10 @@ function TodoForm({onClick}) {
         event.preventDefault();
         //Logic
         console.log("Submit was pressed, data : " + data.text)
+
         onClick(data);
+
+        setData({id: data.id +1, text: ''});
     }
 
     //Handle changing in input dynamically
@@ -26,7 +29,6 @@ function TodoForm({onClick}) {
           {...data, [nameInput]: event.target.value}
       )
     }
-
 
     return (
         <form className={style.todoForm} onSubmit={handleInputSubmit}>
@@ -39,11 +41,7 @@ function TodoForm({onClick}) {
                     }
                 }
             />
-            <button
-                type="submit"
-            >
-                Submit
-            </button>
+            <button type="submit">Submit</button>
         </form>
     )
 }

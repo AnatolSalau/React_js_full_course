@@ -8,12 +8,7 @@ function App() {
     const [todoList, setTodoList] = useState([]);
 
     const addTodoToList = (todo) => {
-        setTodoList( (oldArray) => {
-                return [...oldArray, todo];
-                }
-        );
-        console.log("todo from form : " + todo.text)
-        console.log("todoList : " + todoList);
+        setTodoList([...todoList, todo]);
     }
 
     return (
