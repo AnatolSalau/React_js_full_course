@@ -1,4 +1,5 @@
 import style from './Todo.module.css'
+
 function Todo({todo}) {
     return (
         <div className={style.todo}>
