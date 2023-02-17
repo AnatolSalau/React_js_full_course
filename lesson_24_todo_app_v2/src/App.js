@@ -3,6 +3,8 @@ import {useState} from "react";
 import './App.css';
 import TodoForm from "./components/Todos/TodoForm";
 import TodoList from "./components/Todos/TodoList";
+import TodosActions from "./components/Todos/TodosActions";
+
 function App() {
     //Initialize state for todo list
     const [todoList, setTodoList] = useState([]);
@@ -43,6 +45,7 @@ function App() {
         <div className="App">
             <h1>Doctor app</h1>
             <TodoForm addTodoHandler={addTodoToListHandler} />
+            <TodosActions />
             <TodoList
                 todoList={todoList}
                 deleteTodoHandler={deleteTodoFromListHandler}

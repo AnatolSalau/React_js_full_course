@@ -6,11 +6,19 @@ import { FaCheck } from "react-icons/fa";
 import style from './Todo.module.css'
 
 function Todo({todo, deleteTodoHandler, toggleTodoHandler}) {
+
+    const changeCssClass = () => {
+        return `${style.todo} ${
+            todo.isCompleted
+                ? style.completedTodo
+                : ''
+        }`
+    }
+
     //Run function for deleting todo from list by event:Drag the function below
+    //Change connected css module by ternary operator
     return (
-        <div
-            className={style.todo}
-        >
+        <div className={changeCssClass()}>
             <RiTodoFill className={style.todoIcon}/>
             <div className={style.todoText}>
                 {`ID : ${todo.id}, text : ${todo.text}`}
