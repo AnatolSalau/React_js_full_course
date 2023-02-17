@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa";
 
 import style from './Todo.module.css'
 
-function Todo({todo, deleteTodoHandler}) {
+function Todo({todo, deleteTodoHandler, toggleTodoHandler}) {
     //Run function for deleting todo from list by event:Drag the function below
     return (
         <div
@@ -17,9 +17,12 @@ function Todo({todo, deleteTodoHandler}) {
             </div>
             <RiDeleteBin2Line
                 className={style.deleteIcon}
-                onClick={() =>deleteTodoHandler(todo.id)}
+                onClick={() => deleteTodoHandler(todo.id)}
             />
-            <FaCheck className={style.checkIcon}/>
+            <FaCheck
+                className={style.checkIcon}
+                onClick={() => toggleTodoHandler(todo.id)}
+            />
         </div>
     )
 }

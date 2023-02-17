@@ -23,13 +23,18 @@ function App() {
         ));
     }
 
-    //Toggle todo field: isCompleted
-    const toggleTodoHandler = (id) => {
+    //Toggle todo field: isCompleted by .map
+    const toggleTodoInListHandler = (id) => {
         //!! map not change old array
         //!! map return new array
+        //toggle is completed
         setTodoList(todoList.map(
-            () => {
-
+            (todo) => {
+                return (
+                    todo.id === id
+                        ? {...todo, isCompleted: !todo.isCompleted}
+                        : {...todo}
+                )
             }
         ));
     }
@@ -41,6 +46,7 @@ function App() {
             <TodoList
                 todoList={todoList}
                 deleteTodoHandler={deleteTodoFromListHandler}
+                toggleTodoHandler={toggleTodoInListHandler}
             />
         </div>
     );
