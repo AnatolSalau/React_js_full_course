@@ -8,10 +8,10 @@ function TodoList({todoList, deleteTodoHandler}) {
             {
                 todoList.length > 0
                 ? (todoList.map(
-                    (todo, index) => {
+                    (todo) => {
                         return (
                             <Todo
-                                key={index}
+                                key={todo.id}
                                 todo={todo}
                                 deleteTodoHandler={deleteTodoHandler}
                             />

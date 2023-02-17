@@ -1,5 +1,7 @@
 //Icons library
 import { RiTodoFill } from "react-icons/ri";
+import { RiDeleteBin2Line } from "react-icons/ri";
+import { FaCheck } from "react-icons/fa";
 
 import style from './Todo.module.css'
 
@@ -12,6 +14,8 @@ function Todo({todo, deleteTodoHandler}) {
         >
             <RiTodoFill className={style.todoIcon}/>
             {`ID : ${todo.id}, text : ${todo.text}`}
+            <RiDeleteBin2Line />
+            <FaCheck />
         </div>
     )
 }

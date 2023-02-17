@@ -1,4 +1,4 @@
-# Lesson 24 todo app v1
+# Lesson 24 todo app v2
 
 ## Available Scripts
 

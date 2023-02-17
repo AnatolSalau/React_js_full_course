@@ -7,8 +7,10 @@ function App() {
     //Initialize state for todo list
     const [todoList, setTodoList] = useState([]);
 
-    //Add to todo array new element
+    //Add to todo array new element and change id
     const addTodoToListHandler = (todo) => {
+        //add increment to id
+        todo.id = todo.id +1;
         setTodoList([...todoList, todo]);
     }
 

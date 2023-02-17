@@ -6,8 +6,9 @@ function TodoForm({addTodoHandler}) {
     //Initialize data in inputs by object
     const [data, setData] = useState(
         {
-            id: 1,
-            text: 'initial todo'
+            id: 0,
+            text: 'initial todo',
+            isCompleted: false
         }
     );
 
@@ -17,8 +18,8 @@ function TodoForm({addTodoHandler}) {
         event.preventDefault();
         //Run function from App for adding todo to list
         addTodoHandler(data);
-        //Add +1 to id and delete text from input '' - after press submit
-        setData({id: data.id +1, text: ''});
+        //Delete text from input '' - after press submit
+        setData({ ...data, text:''});
     }
 
     //Handle changing in input dynamically
