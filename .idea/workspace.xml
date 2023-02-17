@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_20_use_effect">
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v1&#10;CSS TodoForm add">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/Todo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/Todo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoList.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +24,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_21_json_placeholder" />
+        <entry key="$PROJECT_DIR$" value="lesson_23_css_modules" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -48,18 +49,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
@@ -68,11 +69,21 @@
       <recent name="D:\REACT\Projects\React_js_full_course\lesson_24_todo_app_v1\src\components\Todos" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lesson_24_todo_app_v1/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/lesson_24_todo_app_v1/package.json" />
       <command value="run" />
       <scripts>
@@ -84,8 +95,14 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
+      <item itemvalue="npm.build" />
       <item itemvalue="npm.start" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,8 +126,7 @@
       <workItem from="1676360663730" duration="822000" />
       <workItem from="1676442013451" duration="243000" />
       <workItem from="1676442269921" duration="7334000" />
-      <workItem from="1676568156389" duration="3709000" />
-      <workItem from="1676577889725" duration="769000" />
+      <workItem from="1676537013477" duration="6244000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -252,42 +268,77 @@
       <option name="project" value="LOCAL" />
       <updated>1676465227029</updated>
     </task>
-    <task id="LOCAL-00022" summary="lesson_20_use_effect">
-      <created>1676568135062</created>
+    <task id="LOCAL-00022" summary="lesson_24_todo_app_v1">
+      <created>1676534035139</created>
       <option name="number" value="00022" />
       <option name="presentableId" value="LOCAL-00022" />
       <option name="project" value="LOCAL" />
-      <updated>1676568135062</updated>
+      <updated>1676534035139</updated>
     </task>
-    <task id="LOCAL-00023" summary="lesson_20_use_effect">
-      <created>1676568587402</created>
+    <task id="LOCAL-00023" summary="lesson_24_todo_app_v1&#10;My own solution">
+      <created>1676542841838</created>
       <option name="number" value="00023" />
       <option name="presentableId" value="LOCAL-00023" />
       <option name="project" value="LOCAL" />
-      <updated>1676568587402</updated>
+      <updated>1676542841838</updated>
     </task>
-    <task id="LOCAL-00024" summary="lesson_20_use_effect">
-      <created>1676569503574</created>
+    <task id="LOCAL-00024" summary="lesson_24_todo_app_v1&#10;My own solution">
+      <created>1676548321263</created>
       <option name="number" value="00024" />
       <option name="presentableId" value="LOCAL-00024" />
       <option name="project" value="LOCAL" />
-      <updated>1676569503574</updated>
+      <updated>1676548321263</updated>
     </task>
-    <task id="LOCAL-00025" summary="lesson_20_use_effect">
-      <created>1676576747904</created>
+    <task id="LOCAL-00025" summary="lesson_24_todo_app_v1&#10;My own solution">
+      <created>1676548542948</created>
       <option name="number" value="00025" />
       <option name="presentableId" value="LOCAL-00025" />
       <option name="project" value="LOCAL" />
-      <updated>1676576747904</updated>
+      <updated>1676548542948</updated>
     </task>
-    <task id="LOCAL-00026" summary="lesson_20_use_effect">
-      <created>1676577822083</created>
+    <task id="LOCAL-00026" summary="lesson_24_todo_app_v1&#10;My own solution">
+      <created>1676548823063</created>
       <option name="number" value="00026" />
       <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1676577822083</updated>
+      <updated>1676548823063</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="lesson_24_todo_app_v1&#10;My own solution">
+      <created>1676549876368</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676549876368</updated>
+    </task>
+    <task id="LOCAL-00028" summary="lesson_24_todo_app_v1&#10;CSS TodoForm add">
+      <created>1676551372066</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1676551372066</updated>
+    </task>
+    <task id="LOCAL-00029" summary="lesson_24_todo_app_v1&#10;CSS TodoForm add">
+      <created>1676551944506</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676551944506</updated>
+    </task>
+    <task id="LOCAL-00030" summary="lesson_24_todo_app_v1&#10;CSS TodoForm add">
+      <created>1676552370195</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676552370195</updated>
+    </task>
+    <task id="LOCAL-00031" summary="lesson_24_todo_app_v1&#10;CSS TodoForm add">
+      <created>1676552879988</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1676552879988</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,12 +361,14 @@
     <MESSAGE value="91 template project - initial commit" />
     <MESSAGE value="lesson_19_children_property" />
     <MESSAGE value="lesson_15_logical and operator" />
+    <MESSAGE value="lesson_20_use_effect" />
     <MESSAGE value="lesson_21_json_placeholder" />
     <MESSAGE value="lesson_22_use_effect_async_await" />
     <MESSAGE value="lesson_23_css_modules" />
     <MESSAGE value="lesson_24_todo_app_v1" />
-    <MESSAGE value="lesson_20_use_effect" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_20_use_effect" />
+    <MESSAGE value="lesson_24_todo_app_v1&#10;My own solution" />
+    <MESSAGE value="lesson_24_todo_app_v1&#10;CSS TodoForm add" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_24_todo_app_v1&#10;CSS TodoForm add" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

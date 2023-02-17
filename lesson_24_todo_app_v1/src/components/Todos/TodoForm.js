@@ -1,7 +1,7 @@
 import style from './TodoForm.module.css'
 import {useState} from "react";
 
-function TodoForm({onClick}) {
+function TodoForm({addTodoHandler}) {
 
     //Initialize data in inputs by object
     const [data, setData] = useState(
@@ -15,11 +15,9 @@ function TodoForm({onClick}) {
     const handleInputSubmit = (event) => {
         //Stop reload page when we press submit
         event.preventDefault();
-        //Logic
-        console.log("Submit was pressed, data : " + data.text)
-
-        onClick(data);
-
+        //Run function from App for adding todo to list
+        addTodoHandler(data);
+        //Add +1 to id and delete text from input '' - after press submit
         setData({id: data.id +1, text: ''});
     }
 

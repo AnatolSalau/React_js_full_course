@@ -1,7 +1,8 @@
 import Todo from "./Todo";
 import style from './TodoList.module.css'
 
-function TodoList({todoList, deleteTodo}) {
+function TodoList({todoList, deleteTodoHandler}) {
+    //Drag the function below to Todo component
     return (
         <div className={style.todoList}>
             {
@@ -12,7 +13,7 @@ function TodoList({todoList, deleteTodo}) {
                             <Todo
                                 key={index}
                                 todo={todo}
-                                deleteTodo={deleteTodo}
+                                deleteTodoHandler={deleteTodoHandler}
                             />
                         )
                     })

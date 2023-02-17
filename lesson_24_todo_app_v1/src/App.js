@@ -7,11 +7,13 @@ function App() {
     //Initialize state for todo list
     const [todoList, setTodoList] = useState([]);
 
-    const addTodoToList = (todo) => {
+    //Add to todo array new element
+    const addTodoToListHandler = (todo) => {
         setTodoList([...todoList, todo]);
     }
 
-    const deleteTodoFromList = (id) => {
+    //Delete object with field id from array by filter
+    const deleteTodoFromListHandler = (id) => {
         setTodoList(todoList.filter(
             (todo) => {
                 return todo.id !== id;
@@ -21,10 +23,10 @@ function App() {
     return (
         <div className="App">
             <h1>Doctor app</h1>
-            <TodoForm onClick={addTodoToList} />
+            <TodoForm addTodoHandler={addTodoToListHandler} />
             <TodoList
                 todoList={todoList}
-                deleteTodo={deleteTodoFromList}
+                deleteTodoHandler={deleteTodoFromListHandler}
             />
         </div>
     );
