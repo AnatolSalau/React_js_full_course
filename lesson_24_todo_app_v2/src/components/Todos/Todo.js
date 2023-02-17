@@ -10,12 +10,16 @@ function Todo({todo, deleteTodoHandler}) {
     return (
         <div
             className={style.todo}
-            onDoubleClick={() => deleteTodoHandler(todo.id)}
         >
             <RiTodoFill className={style.todoIcon}/>
-            {`ID : ${todo.id}, text : ${todo.text}`}
-            <RiDeleteBin2Line />
-            <FaCheck />
+            <div className={style.todoText}>
+                {`ID : ${todo.id}, text : ${todo.text}`}
+            </div>
+            <RiDeleteBin2Line
+                className={style.deleteIcon}
+                onClick={() =>deleteTodoHandler(todo.id)}
+            />
+            <FaCheck className={style.checkIcon}/>
         </div>
     )
 }

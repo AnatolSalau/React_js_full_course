@@ -22,6 +22,18 @@ function App() {
             }
         ));
     }
+
+    //Toggle todo field: isCompleted
+    const toggleTodoHandler = (id) => {
+        //!! map not change old array
+        //!! map return new array
+        setTodoList(todoList.map(
+            () => {
+
+            }
+        ));
+    }
+
     return (
         <div className="App">
             <h1>Doctor app</h1>

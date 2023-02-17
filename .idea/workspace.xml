@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v1&#10;CSS TodoForm add">
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v2&#10;initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/public/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/public/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/public/site.webmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/public/site.webmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/Todo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/Todo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/TodoForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/TodoForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/TodoList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/Todos/TodoList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/TodoList.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/UI/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/UI/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/components/UI/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/UI/Button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v1/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/Todo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/Todo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/Todo.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -350,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676628375914</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="lesson_24_todo_app_v2&#10;initial commit">
+      <created>1676634839227</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1676634839227</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +366,8 @@
     <MESSAGE value="lesson_24_todo_app_v1" />
     <MESSAGE value="lesson_24_todo_app_v1&#10;My own solution" />
     <MESSAGE value="lesson_24_todo_app_v1&#10;CSS TodoForm add" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_24_todo_app_v1&#10;CSS TodoForm add" />
+    <MESSAGE value="lesson_24_todo_app_v2&#10;initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_24_todo_app_v2&#10;initial commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
