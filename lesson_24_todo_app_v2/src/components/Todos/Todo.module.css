@@ -11,6 +11,12 @@
     text-align: left;
     width: 100%;
 }
+
+.completedTodo {
+    background-color: unset;
+    border-color: gray;
+    color: gray;
+}
 /*.todo:hover {
     background-color: rgb(240, 240, 155);
 }*/
@@ -23,12 +29,6 @@
 .todoText {
     width: 100%;
     text-align: left;
-}
-
-.completedTodo {
-    background-color: unset;
-    border-color: gray;
-    color: gray;
 }
 
 .todo.completedTodo .todoIcon,

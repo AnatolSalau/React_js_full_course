@@ -7,6 +7,7 @@ import TodosActions from "./components/Todos/TodosActions";
 
 function App() {
     //Initialize state for todo list
+    //todoList - list where we handle all todo objects
     const [todoList, setTodoList] = useState([]);
 
     //Add to todo array new element and change id
@@ -41,11 +42,30 @@ function App() {
         ));
     }
 
+    //Clear todoList
+    const resetTodosHandler = () => {
+        setTodoList([]);
+    }
+
+    //Delete only completed todos
+    const deleteCompletedTodosHandler = () => {
+      setTodoList(todoList.filter(
+          (todo) => {
+              return(
+                  !todo.isCompleted
+              )
+          }
+      ));
+    }
+
     return (
         <div className="App">
             <h1>Doctor app</h1>
             <TodoForm addTodoHandler={addTodoToListHandler} />
-            <TodosActions />
+            <TodosActions
+                resetTodoHandler={resetTodosHandler}
+                deleteCompletedTodoHandler={deleteCompletedTodosHandler}
+            />
             <TodoList
                 todoList={todoList}
                 deleteTodoHandler={deleteTodoFromListHandler}
