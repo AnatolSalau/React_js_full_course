@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v2&#10;Todos Action">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/TodosActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/Todos/TodosActions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/UI/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/UI/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/UI/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_24_todo_app_v2/src/components/UI/Button.module.css" afterDir="false" />
-    </list>
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v2&#10;Disabled button" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -344,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677068775432</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="lesson_24_todo_app_v2&#10;Disabled button">
+      <created>1677072225580</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1677072225580</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -376,7 +377,8 @@
     <MESSAGE value="lesson_24_todo_app_v1&#10;CSS TodoForm add" />
     <MESSAGE value="lesson_24_todo_app_v2&#10;initial commit" />
     <MESSAGE value="lesson_24_todo_app_v2&#10;Todos Action" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_24_todo_app_v2&#10;Todos Action" />
+    <MESSAGE value="lesson_24_todo_app_v2&#10;Disabled button" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_24_todo_app_v2&#10;Disabled button" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
