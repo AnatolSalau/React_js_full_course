@@ -13,3 +13,7 @@
 .button:hover {
     background-color: rgb(240, 240, 155);
 }
+
+.disabledButton {
+
+}

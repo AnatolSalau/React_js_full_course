@@ -4,7 +4,11 @@ import { RiDeleteBin2Line, RiRefreshLine}
 import Button from '../UI/Button';
 import style from './TodosActions.module.css'
 
-function TodosActions({resetTodoHandler, deleteCompletedTodoHandler}) {
+function TodosActions({
+                          resetTodoHandler,
+                          deleteCompletedTodoHandler,
+                          completedTodoExist
+}) {
     return (
         <div className={style}>
             <Button
@@ -16,6 +20,7 @@ function TodosActions({resetTodoHandler, deleteCompletedTodoHandler}) {
             <Button
                 title="Clear Completed Todos"
                 onCLick={deleteCompletedTodoHandler}
+                isDisable={completedTodoExist !== true}
             >
                 <RiDeleteBin2Line />
             </Button>

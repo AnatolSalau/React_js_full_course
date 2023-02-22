@@ -1,4 +1,5 @@
-import styles from './Button.module.css'
+import style from './Button.module.css'
+
 /**
  *
  * @param onCLick - event handler
@@ -8,8 +9,16 @@ import styles from './Button.module.css'
  */
 
 function Button({onCLick, children, title, isDisable = false}) {
+
+    const changeCssClass = () => {
+        return ` ${
+            isDisable
+                ? style.disabledButton
+                : style.button
+        } `
+    }
     return (
-      <button className={styles.button}
+      <button className={changeCssClass()}
               onClick={onCLick}
               title={title}
               disabled={isDisable}

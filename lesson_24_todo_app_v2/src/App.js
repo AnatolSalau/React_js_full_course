@@ -49,23 +49,33 @@ function App() {
 
     //Delete only completed todos
     const deleteCompletedTodosHandler = () => {
-      setTodoList(todoList.filter(
-          (todo) => {
-              return(
-                  !todo.isCompleted
-              )
-          }
-      ));
+        setTodoList(todoList.filter(
+            (todo) => {
+                return (
+                    !todo.isCompleted
+                )
+            }
+        ));
     }
-
+    //find quantity of all completed todo in list
+    const completedTodosCount = todoList.filter(
+        (todo) => {
+            return todo.isCompleted;
+        }
+    ).length;
+    console.log(completedTodosCount)
     return (
         <div className="App">
             <h1>Doctor app</h1>
             <TodoForm addTodoHandler={addTodoToListHandler} />
-            <TodosActions
-                resetTodoHandler={resetTodosHandler}
-                deleteCompletedTodoHandler={deleteCompletedTodosHandler}
-            />
+            {todoList.length >0 && (
+                <TodosActions
+                    completedTodoExist={completedTodosCount > 0}
+                    resetTodoHandler={resetTodosHandler}
+                    deleteCompletedTodoHandler={deleteCompletedTodosHandler}
+                />
+            )}
+
             <TodoList
                 todoList={todoList}
                 deleteTodoHandler={deleteTodoFromListHandler}
