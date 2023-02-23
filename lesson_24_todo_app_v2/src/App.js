@@ -81,7 +81,13 @@ function App() {
                 toggleTodoHandler={toggleTodoInListHandler}
             />
             {completedTodosCount >0 && (
-                <h3> {`Кол-во выполненных задач ${completedTodosCount}`}</h3>
+                <h3>
+                    {`Всего выполненна: ${completedTodosCount} ${
+                        completedTodosCount > 1
+                            ? 'задачи'
+                            : 'задача'
+                    }`}
+                </h3>
             )}
         </div>
     );
