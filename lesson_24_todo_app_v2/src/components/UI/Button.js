@@ -13,7 +13,7 @@ function Button({onCLick, children, title, isDisable = false}) {
     const changeCssClass = () => {
         return ` ${
             isDisable
-                ? style.disabledButton
+                ? ` ${style.button} ${style.disabledButton}`
                 : style.button
         } `
     }

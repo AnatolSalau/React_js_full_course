@@ -15,5 +15,8 @@
 }
 
 .disabledButton {
-
+    background-color: gray;
+}
+.disabledButton:hover {
+    background-color: gray;
 }
