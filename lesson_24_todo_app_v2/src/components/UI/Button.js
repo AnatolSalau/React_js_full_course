@@ -8,20 +8,21 @@ import style from './Button.module.css'
  * @param isDisable - tp hide or not Button
  */
 
-function Button({onCLick, children, title, isDisable = false}) {
-
+function Button(props) {
+    const {onClick, children, title, disabled = false} = props;
     const changeCssClass = () => {
         return ` ${
-            isDisable
+            disabled
                 ? ` ${style.button} ${style.disabledButton}`
                 : style.button
         } `
     }
     return (
       <button className={changeCssClass()}
-              onClick={onCLick}
+              {...props}
+              onClick={onClick}
               title={title}
-              disabled={isDisable}
+              disabled={disabled}
       >
           {children}
       </button>

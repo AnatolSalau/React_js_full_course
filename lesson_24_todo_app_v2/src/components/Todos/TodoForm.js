@@ -1,5 +1,6 @@
 import style from './TodoForm.module.css'
 import {useState} from "react";
+import Button from "../UI/Button";
 
 function TodoForm({addTodoHandler}) {
 
@@ -40,7 +41,12 @@ function TodoForm({addTodoHandler}) {
                     }
                 }
             />
-            <button type="submit">Submit</button>
+            <Button
+                type="submit"
+                title="Add todo"
+            >
+                Add todo
+            </Button>
         </form>
     )
 }

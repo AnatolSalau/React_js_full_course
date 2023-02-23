@@ -13,14 +13,14 @@ function TodosActions({
         <div className={style}>
             <Button
                 title="Reset Todos"
-                onCLick={resetTodoHandler}
+                onClick={resetTodoHandler}
             >
                 <RiRefreshLine />
             </Button>
             <Button
                 title="Clear Completed Todos"
-                onCLick={deleteCompletedTodoHandler}
-                isDisable={completedTodoExist !== true}
+                onClick={deleteCompletedTodoHandler}
+                disabled={completedTodoExist !== true}
             >
                 <RiDeleteBin2Line />
             </Button>

@@ -75,12 +75,14 @@ function App() {
                     deleteCompletedTodoHandler={deleteCompletedTodosHandler}
                 />
             )}
-
             <TodoList
                 todoList={todoList}
                 deleteTodoHandler={deleteTodoFromListHandler}
                 toggleTodoHandler={toggleTodoInListHandler}
             />
+            {completedTodosCount >0 && (
+                <h3> {`Кол-во выполненных задач ${completedTodosCount}`}</h3>
+            )}
         </div>
     );
 }
