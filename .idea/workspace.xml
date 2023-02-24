@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_24_todo_app_v2&#10;Completed todo quantity" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_91_template_project_dark" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,24 +60,10 @@
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/lesson_22_use_effect_async_await/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JavaScript Debug.Debug Application" />
-      <item itemvalue="npm.start" />
-    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -207,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676449687472</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="lesson_91_template_project_dark">
+      <created>1677224297973</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1677224297973</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +226,8 @@
     <MESSAGE value="lesson_20_use_effect" />
     <MESSAGE value="lesson_21_json_placeholder" />
     <MESSAGE value="lesson_22_use_effect_async_await" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_22_use_effect_async_await" />
+    <MESSAGE value="lesson_91_template_project_dark" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_91_template_project_dark" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
