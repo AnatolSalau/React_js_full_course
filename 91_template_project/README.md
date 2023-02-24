@@ -1,4 +1,4 @@
-# Template React app
+# Template React app dark
 
 ## Available Scripts
 
