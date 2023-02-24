@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_25_react_router initial commit">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -106,6 +109,7 @@
       <workItem from="1676360663730" duration="822000" />
       <workItem from="1676442013451" duration="243000" />
       <workItem from="1676442269921" duration="7334000" />
+      <workItem from="1677226466678" duration="1058000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -240,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677224766412</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="lesson_25_react_router initial commit">
+      <created>1677226320111</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677226320111</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

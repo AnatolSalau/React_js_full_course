@@ -1,12 +1,15 @@
-import {BrowserRouter} from 'react-router-dom';
+import {BrowserRouter} from "react-router-dom";
 
 import './App.css';
+
 
 function App() {
         return (
                 <BrowserRouter>
                         <div className="App">
-
+                                <h1>
+                                        React router
+                                </h1>
                         </div>
                 </BrowserRouter>
         );
