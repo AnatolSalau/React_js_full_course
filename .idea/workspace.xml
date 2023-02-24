@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_25_react_router initial router path">
-      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Contacts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/layouts/MainLayout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,16 +58,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lesson_25_react_router/src/components" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="rearrange.code.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\REACT\Projects\React_js_full_course\lesson_25_react_router\src\components" />
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
     </key>
   </component>
@@ -117,7 +127,7 @@
       <workItem from="1676360663730" duration="822000" />
       <workItem from="1676442013451" duration="243000" />
       <workItem from="1676442269921" duration="7334000" />
-      <workItem from="1677226466678" duration="6264000" />
+      <workItem from="1677226466678" duration="13324000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -273,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677229570784</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="lesson_25_react_router initial router path">
+      <created>1677233200632</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1677233200632</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
