@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Patient list from json">
-      <change afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/PatientCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/public/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/public/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/public/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/NotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Patient.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Patient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Patients.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Patients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/data/patients.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/data/patients.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/layouts/MainLayout.js" afterDir="false" />
-    </list>
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Patient list with link." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +121,7 @@
       <workItem from="1676442013451" duration="243000" />
       <workItem from="1676442269921" duration="7334000" />
       <workItem from="1677226466678" duration="13613000" />
-      <workItem from="1677478497061" duration="17287000" />
+      <workItem from="1677478497061" duration="18104000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -334,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677487683586</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Patient list with link.">
+      <created>1677501612745</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1677501612745</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +345,8 @@
     <MESSAGE value="lesson_25_react_router initial router relative path" />
     <MESSAGE value="lesson 25 react router with navLink" />
     <MESSAGE value="Patient list from json" />
-    <option name="LAST_COMMIT_MESSAGE" value="Patient list from json" />
+    <MESSAGE value="Patient list with link." />
+    <option name="LAST_COMMIT_MESSAGE" value="Patient list with link." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
