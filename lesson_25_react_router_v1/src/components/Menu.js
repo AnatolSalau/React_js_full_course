@@ -30,6 +30,7 @@ function Menu() {
                   <NavLink
                         className={toggleIsActiveCss}
                         to="patients"
+                        end
                   >
                         Пациенты
                   </NavLink>

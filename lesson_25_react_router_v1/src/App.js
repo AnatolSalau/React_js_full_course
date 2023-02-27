@@ -6,6 +6,7 @@ import NotFound from "./components/NotFound";
 import MainLayout from "./layouts/MainLayout";
 import './App.css';
 import Patients from "./components/Patients";
+import Patient from "./components/Patient";
 
 function App() {
       return (
@@ -17,6 +18,7 @@ function App() {
                                     <Route path="about" element={<About/>}/>
                                     <Route path="contacts" element={<Contacts/>}/>
                                     <Route path="patients" element={<Patients/>}/>
+                                    <Route path="patients/:slug" element={<Patient/>}/>
                                     <Route path="*" element={<NotFound/>}/>
                               </Route>
                         </Routes>
