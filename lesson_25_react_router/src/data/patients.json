@@ -1,0 +1,26 @@
+[
+      {
+            "id": 1,
+            "slug": "patient1",
+            "title": "Пациент 1",
+            "measure": "Измерение 1"
+      },
+      {
+            "id": 2,
+            "slug": "patient2",
+            "title": "Пациент 2",
+            "measure": "Измерение 2"
+      },
+      {
+            "id": 3,
+            "slug": "patient3",
+            "title": "Пациент 3",
+            "measure": "Измерение 3"
+      },
+      {
+            "id": 4,
+            "slug": "patient4",
+            "title": "Пациент 4",
+            "measure": "Измерение 4"
+      }
+]

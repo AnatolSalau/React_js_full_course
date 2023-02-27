@@ -13,7 +13,7 @@ function Menu() {
                         to="."
                         end
                   >
-                        Пациенты
+                        Главное окно
                   </NavLink>
                   <NavLink
                         className={toggleIsActiveCss}
@@ -26,6 +26,12 @@ function Menu() {
                         to="contacts"
                   >
                         Данные
+                  </NavLink>
+                  <NavLink
+                        className={toggleIsActiveCss}
+                        to="patients"
+                  >
+                        Пациенты
                   </NavLink>
             </nav>
       );

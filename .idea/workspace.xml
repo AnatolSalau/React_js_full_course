@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_25_react_router initial router relative path">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson 25 react router with navLink">
+      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Patient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Patients.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/data/patients.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +128,7 @@
       <workItem from="1676442013451" duration="243000" />
       <workItem from="1676442269921" duration="7334000" />
       <workItem from="1677226466678" duration="13613000" />
-      <workItem from="1677478497061" duration="3291000" />
+      <workItem from="1677478497061" duration="6570000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -295,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677244599703</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="lesson 25 react router with navLink">
+      <created>1677483565070</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677483565070</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +336,8 @@
     <MESSAGE value="lesson_25_react_router initial router" />
     <MESSAGE value="lesson_25_react_router initial router path" />
     <MESSAGE value="lesson_25_react_router initial router relative path" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_25_react_router initial router relative path" />
+    <MESSAGE value="lesson 25 react router with navLink" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 25 react router with navLink" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
