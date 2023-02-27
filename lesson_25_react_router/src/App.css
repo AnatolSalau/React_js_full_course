@@ -8,9 +8,21 @@
       row-gap: 20px;
 }
 
+/*Use by default with Navlink in menu by css class .active*/
+/*.active {
+      color: blue;
+      text-decoration: none;
+}*/
+
+.activeLink {
+      color: blue;
+      text-decoration: none;
+}
+
 a {
       color: lightblue;
       font-size: 5vh;
+      text-decoration: none;
 }
 
 nav {

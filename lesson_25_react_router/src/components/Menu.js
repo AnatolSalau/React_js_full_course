@@ -1,11 +1,32 @@
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 function Menu() {
+
+      const toggleIsActiveCss = ({isActive}) => {
+            return isActive ? 'activeLink' : 'link';
+      };
+
       return (
             <nav>
-                  <Link to=".">Home</Link>
-                  <Link to="about">About</Link>
-                  <Link to="contacts">Contacts</Link>
+                  <NavLink
+                        className={toggleIsActiveCss}
+                        to="."
+                        end
+                  >
+                        Пациенты
+                  </NavLink>
+                  <NavLink
+                        className={toggleIsActiveCss}
+                        to="about"
+                  >
+                        Врач
+                  </NavLink>
+                  <NavLink
+                        className={toggleIsActiveCss}
+                        to="contacts"
+                  >
+                        Данные
+                  </NavLink>
             </nav>
       );
 }

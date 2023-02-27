@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_25_react_router initial router path">
-      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson_25_react_router/src/layouts/MainLayout.js" afterDir="false" />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_25_react_router initial router relative path">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router/src/components/Menu.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="rearrange.code.on.save" value="true" />
-    <property name="settings.editor.selected.configurable" value="actions.on.save" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -127,7 +124,8 @@
       <workItem from="1676360663730" duration="822000" />
       <workItem from="1676442013451" duration="243000" />
       <workItem from="1676442269921" duration="7334000" />
-      <workItem from="1677226466678" duration="13324000" />
+      <workItem from="1677226466678" duration="13613000" />
+      <workItem from="1677478497061" duration="3291000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677233200632</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lesson_25_react_router initial router relative path">
+      <created>1677244599703</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677244599703</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +325,8 @@
     <MESSAGE value="lesson_25_react_router initial commit" />
     <MESSAGE value="lesson_25_react_router initial router" />
     <MESSAGE value="lesson_25_react_router initial router path" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_25_react_router initial router path" />
+    <MESSAGE value="lesson_25_react_router initial router relative path" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_25_react_router initial router relative path" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
