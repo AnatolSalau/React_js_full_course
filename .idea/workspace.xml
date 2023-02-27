@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Patient list with link." />
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Patient list with link.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/NotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Patient.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Patient.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +125,7 @@
       <workItem from="1676442013451" duration="243000" />
       <workItem from="1676442269921" duration="7334000" />
       <workItem from="1677226466678" duration="13613000" />
-      <workItem from="1677478497061" duration="18104000" />
+      <workItem from="1677478497061" duration="19072000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -312,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677501612745</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Patient list with link.">
+      <created>1677503088944</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1677503088944</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
