@@ -9,9 +9,6 @@ function Patient() {
 
       const navigate = useNavigate();
 
-      const location = useLocation();
-      console.log(location);
-
       const findPatientBySLug = dataPatients.find((patient) => {
                   return patient.slug === slug;
             }
