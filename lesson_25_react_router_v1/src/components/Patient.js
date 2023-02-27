@@ -1,14 +1,23 @@
-import {Link, useParams} from "react-router-dom";
+import {Link, useLocation, useNavigate, useParams} from "react-router-dom";
 import dataPatients from "../data/patients.json";
 import NotFound from "./NotFound";
+import {useEffect} from "react";
 
 function Patient() {
 
       const {slug} = useParams();
+
+      const navigate = useNavigate();
+
+      const location = useLocation();
+      console.log(location);
+
       const findPatientBySLug = dataPatients.find((patient) => {
                   return patient.slug === slug;
             }
       )
+      //First example <Link to="..">
+      /*
       if (findPatientBySLug) {
             return (
                   <div>
@@ -22,7 +31,24 @@ function Patient() {
             return <div>
                   <NotFound text="Пациент не найден"/>
             </div>
-      }
+      }*/
+
+      //Second example simply navigate by useNavigate() and useEffect hooks
+
+      useEffect(() => {
+            if (!findPatientBySLug) {
+                  navigate('..', {relative: 'path'});
+            }
+      }, [findPatientBySLug]);
+
+      return (
+            <div>
+                  <h1>Персональная страница пациента</h1>
+                  <p>{findPatientBySLug.title}</p>
+                  <p>{findPatientBySLug.measure}</p>
+                  <Link to="..">Вернуться на главную страницу</Link>
+            </div>
+      );
 }
 
 export default Patient;
