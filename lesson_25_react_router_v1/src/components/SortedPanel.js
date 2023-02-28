@@ -1,32 +1,27 @@
+import React from "react";
 import style from './SortedPanel.module.css'
-import {useNavigate} from "react-router-dom";
-import {useEffect, useState} from "react";
+import {Link} from "react-router-dom";
 
-function SortedPanel({labels, changeTextHandler}) {
-
-      const getTextFromTarget = (event) => {
-            return event.target.innerHTML;
-      }
-
+function SortedPanel({labels, onClick}) {
+      console.log("but");
       return (
             <div className={style.sortedPanel}>
                   {
                         labels.map((label, index) => {
                               return (
-                                    <button
-                                          key={index}
-                                          onClick={(event) => {
-                                                changeTextHandler(getTextFromTarget(event))
+                                    <Link to={`/patients?sort=${label}`} key={index}>
+                                          <button onClick={(event) => {
+                                                onClick(event.target.innerHTML)
                                           }}
-                                    >
-                                          {label}
-                                    </button>
+                                          >
+                                                {label}
+                                          </button>
+                                    </Link>
                               )
                         })
                   }
-
             </div>
       )
 }
 
-export default SortedPanel;
+export default React.memo(SortedPanel);

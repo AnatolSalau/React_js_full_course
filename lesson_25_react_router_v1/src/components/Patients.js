@@ -1,27 +1,28 @@
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import queryString from 'query-string';
-import {useEffect, useState} from "react";
+import {useCallback, useEffect, useState} from "react";
 
 import coursesData from '../data/patients.json'
 import PatientCard from "./PatientCard";
 import SortedPanel from "./SortedPanel";
 
-const SORTS_KEYS = ['id', 'slug', 'title', 'measure'];
-
-function sortCourses(courses, key) {
-      if (!key || !SORTS_KEYS.includes(key)) {
-            return courses;
-      }
-      const sortedCourses = [...courses];
-      sortedCourses.sort((a, b) => {
-            return a[key] > b[key] ? 1 : -1;
-      });
-      return sortedCourses;
-}
 
 function Patients() {
+      const SORTS_KEYS = ['id', 'slug', 'title', 'measure'];
+
+      function sortCourses(courses, key) {
+            if (!key || !SORTS_KEYS.includes(key)) {
+                  return courses;
+            }
+            const sortedCourses = [...courses];
+            sortedCourses.sort((a, b) => {
+                  return a[key] > b[key] ? 1 : -1;
+            });
+            return sortedCourses;
+      }
+
       //get navigate
-      const navigate = useNavigate();
+      //const navigate = useNavigate();
 
       //get location ()
       /*
@@ -39,45 +40,37 @@ function Patients() {
       /*
             measure
        */
+
       let [sortKey, setSortKey] = useState(query.sort);
+      console.log(sortKey);
 
       //initialize new state: sortedCourses by useState
       let [sortedCourses, setSortedCourses] = useState(
             sortCourses(coursesData, sortKey)
       );
 
+      const onChangeFilter = useCallback((text) => {
+            setSortKey(text);
+      }, []);
+
+
       useEffect(() => {
-            if (!SORTS_KEYS.includes(sortKey)) {
-                  navigate('.');
-                  //set sortKey by null
-                  /*
-                  setSortKey(null);
-                  console.log(sortedCourses);
-                  setSortedCourses([...coursesData]);
-                  console.log(sortedCourses);
-                  */
-            }
-      }, [sortKey, navigate]);
+            /*if (!SORTS_KEYS.includes(sortKey)) {
+                   navigate('.');
+                   //set sortKey by null
 
-      let [targetText, setTargetText] = useState('');
+                   setSortKey(sortKey);
+                   console.log(sortedCourses);
+                   setSortedCourses([...coursesData]);
+                   console.log(sortedCourses);
 
-      /*      useEffect(() => {
-                  if (targetText) {
-                        navigate(`?sort=${targetText}`, {relative: 'path'});
-                  }
-                  console.log('useEffect')
-            }, [targetText]);*/
+             }*/
+            setSortedCourses(sortCourses(coursesData, sortKey));
+      }, [sortKey]);
 
-      let changeTargetTextHandler = (text) => {
-
-            /*            navigate('..');*/
-            console.log(`${location.pathname}?sort=${text}`)
-            navigate(`${location.pathname}?sort=${text}`);
-            /*            setTargetText(text);*/
-      }
       return (
             <>
-                  <SortedPanel labels={SORTS_KEYS} changeTextHandler={changeTargetTextHandler}/>
+                  <SortedPanel labels={SORTS_KEYS} onClick={onChangeFilter}/>
                   {
                         (sortKey && SORTS_KEYS.includes(sortKey))
                               ? <h1>{`Пациенты отсортированные по ${sortKey}`}</h1>

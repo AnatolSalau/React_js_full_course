@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Patient sort patients by location query string">
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_26_npm_query_string">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Patients.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Patients.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/SortedPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/SortedPanel.js" afterDir="false" />
@@ -14,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,9 +49,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\REACT\Projects\React_js_full_course\lesson_25_react_router_v1\src\components" />
@@ -314,42 +317,7 @@
       <option name="project" value="LOCAL" />
       <updated>1677516718256</updated>
     </task>
-    <task id="LOCAL-00032" summary="Patient sort patients by location query string">
-      <created>1677568800177</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1677568800177</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Patient sort patients by location query string">
-      <created>1677570199303</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1677570199303</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Patient sort patients by location query string">
-      <created>1677572943428</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1677572943428</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Patient sort patients by location query string">
-      <created>1677572990947</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1677572990947</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Patient sort patients by location query string">
-      <created>1677586058209</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1677586058209</updated>
-    </task>
-    <option name="localTasksCounter" value="37" />
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,8 +353,7 @@
     <MESSAGE value="Patient list with link." />
     <MESSAGE value="lesson_24_todo_app_v2&#10;toggle handler" />
     <MESSAGE value="lesson_26_npm_query_string" />
-    <MESSAGE value="Patient sort patients by location query string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Patient sort patients by location query string" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_26_npm_query_string" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
