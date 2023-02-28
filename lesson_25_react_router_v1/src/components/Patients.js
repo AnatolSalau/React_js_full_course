@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 
 import coursesData from '../data/patients.json'
 import PatientCard from "./PatientCard";
+import SortedPanel from "./SortedPanel";
 
 const SORTS_KEYS = ['id', 'slug', 'title', 'measure'];
 
@@ -60,6 +61,7 @@ function Patients() {
 
       return (
             <>
+                  <SortedPanel labels={SORTS_KEYS}/>
                   {
                         (sortKey && SORTS_KEYS.includes(sortKey))
                               ? <h1>{`Пациенты отсортированные по ${sortKey}`}</h1>

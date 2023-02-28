@@ -1,0 +1,16 @@
+.sortedPanel {
+      display: flex;
+      gap: 5px;
+}
+
+button {
+      background-color: #72A0C1; /* Green */
+      border-radius: 5px;
+      padding: 10px 30px;
+      border: none;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+}
