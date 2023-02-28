@@ -59,9 +59,25 @@ function Patients() {
             }
       }, [sortKey, navigate]);
 
+      let [targetText, setTargetText] = useState('');
+
+      /*      useEffect(() => {
+                  if (targetText) {
+                        navigate(`?sort=${targetText}`, {relative: 'path'});
+                  }
+                  console.log('useEffect')
+            }, [targetText]);*/
+
+      let changeTargetTextHandler = (text) => {
+
+            /*            navigate('..');*/
+            console.log(`${location.pathname}?sort=${text}`)
+            navigate(`${location.pathname}?sort=${text}`);
+            /*            setTargetText(text);*/
+      }
       return (
             <>
-                  <SortedPanel labels={SORTS_KEYS}/>
+                  <SortedPanel labels={SORTS_KEYS} changeTextHandler={changeTargetTextHandler}/>
                   {
                         (sortKey && SORTS_KEYS.includes(sortKey))
                               ? <h1>{`Пациенты отсортированные по ${sortKey}`}</h1>

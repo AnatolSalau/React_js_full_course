@@ -2,22 +2,11 @@ import style from './SortedPanel.module.css'
 import {useNavigate} from "react-router-dom";
 import {useEffect, useState} from "react";
 
-function SortedPanel({labels}) {
-
-      const navigate = useNavigate();
-
-      let [targetText, setTargetText] = useState('');
+function SortedPanel({labels, changeTextHandler}) {
 
       const getTextFromTarget = (event) => {
             return event.target.innerHTML;
       }
-
-      useEffect(() => {
-            if (targetText) {
-                  navigate(`?sort=${targetText}`, {relative: 'path'});
-            }
-            console.log('useEffect')
-      }, [targetText]);
 
       return (
             <div className={style.sortedPanel}>
@@ -27,7 +16,7 @@ function SortedPanel({labels}) {
                                     <button
                                           key={index}
                                           onClick={(event) => {
-                                                setTargetText(getTextFromTarget(event))
+                                                changeTextHandler(getTextFromTarget(event))
                                           }}
                                     >
                                           {label}
