@@ -15,11 +15,24 @@ function sortCourses(courses, key) {
 }
 
 function Patients() {
-
+      //get location ()
+      /*
+            {pathname: '/patients', sort: '?search=measure', hash: '', state: null, key: 'default'}
+       */
       const location = useLocation();
+
+      //get query
+      /*
+            {sort: 'measure'}
+       */
       const query = queryString.parse(location.search);
 
+      //get key
+      /*
+            measure
+       */
       let [sortKey, setSortKey] = useState(query.sort);
+
 
       let [sortedCourses, setSortedCourses] = useState(
             sortCourses(coursesData, sortKey)
