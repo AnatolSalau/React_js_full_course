@@ -1,13 +1,14 @@
-import {useLocation} from "react-router-dom";
+import {useLocation, useNavigate} from "react-router-dom";
 import queryString from 'query-string';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 import coursesData from '../data/patients.json'
-
 import PatientCard from "./PatientCard";
 
+const SORTS_KEYS = ['id', 'slug', 'title', 'measure'];
+
 function sortCourses(courses, key) {
-      if (!key) {
+      if (!key || !SORTS_KEYS.includes(key)) {
             return courses;
       }
       const sortedCourses = [...courses];
@@ -18,6 +19,9 @@ function sortCourses(courses, key) {
 }
 
 function Patients() {
+      //get navigate
+      const navigate = useNavigate();
+
       //get location ()
       /*
             {pathname: '/patients', sort: '?search=measure', hash: '', state: null, key: 'default'}
@@ -41,10 +45,24 @@ function Patients() {
             sortCourses(coursesData, sortKey)
       );
 
+      useEffect(() => {
+            if (!SORTS_KEYS.includes(sortKey)) {
+                  navigate('.');
+                  console.log(sortedCourses);
+                  //set sortKey by null
+                  /*
+                  setSortKey(null);
+                  console.log(sortedCourses);
+                  setSortedCourses([...coursesData]);
+                  console.log(sortedCourses);
+                  */
+            }
+      }, [sortKey, navigate]);
+
       return (
             <>
                   {
-                        sortKey
+                        (sortKey && SORTS_KEYS.includes(sortKey))
                               ? <h1>{`Пациенты отсортированные по ${sortKey}`}</h1>
                               : <h1>Все пациенты:</h1>
                   }
