@@ -7,6 +7,9 @@ import coursesData from '../data/patients.json'
 import PatientCard from "./PatientCard";
 
 function sortCourses(courses, key) {
+      if (!key) {
+            return courses;
+      }
       const sortedCourses = [...courses];
       sortedCourses.sort((a, b) => {
             return a[key] > b[key] ? 1 : -1;
@@ -27,20 +30,24 @@ function Patients() {
        */
       const query = queryString.parse(location.search);
 
-      //get key
+      //initialize state by useState for key for sort
       /*
             measure
        */
       let [sortKey, setSortKey] = useState(query.sort);
 
-
+      //initialize new state: sortedCourses by useState
       let [sortedCourses, setSortedCourses] = useState(
             sortCourses(coursesData, sortKey)
       );
 
       return (
             <>
-                  <h1>Все пациенты:</h1>
+                  {
+                        sortKey
+                              ? <h1>{`Пациенты отсортированные по ${sortKey}`}</h1>
+                              : <h1>Все пациенты:</h1>
+                  }
                   {
                         sortedCourses.map((patient => {
                               return <PatientCard key={patient.id}  {...patient}/>
