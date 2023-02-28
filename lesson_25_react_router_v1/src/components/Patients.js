@@ -48,7 +48,6 @@ function Patients() {
       useEffect(() => {
             if (!SORTS_KEYS.includes(sortKey)) {
                   navigate('.');
-                  console.log(sortedCourses);
                   //set sortKey by null
                   /*
                   setSortKey(null);
