@@ -1,20 +1,22 @@
 import {useLocation} from "react-router-dom";
 import queryString from 'query-string';
-import {useCallback, useEffect, useState} from "react";
+import {useState} from "react";
 
-import coursesData from '../data/patients.json'
+import rawPatients from '../data/patients.json'
 import PatientCard from "./PatientCard";
 import SortedPanel from "./SortedPanel";
 
 
 function Patients() {
+      console.log("-------------------Render : Пациенты-------------------");
+
       const SORTS_KEYS = ['id', 'slug', 'title', 'measure'];
 
-      function sortCourses(courses, key) {
+      function toSortPatients(patients, key) {
             if (!key || !SORTS_KEYS.includes(key)) {
-                  return courses;
+                  return patients;
             }
-            const sortedCourses = [...courses];
+            const sortedCourses = [...patients];
             sortedCourses.sort((a, b) => {
                   return a[key] > b[key] ? 1 : -1;
             });
@@ -42,31 +44,11 @@ function Patients() {
        */
 
       let [sortKey, setSortKey] = useState(query.sort);
-      console.log(sortKey);
 
-      //initialize new state: sortedCourses by useState
-      let [sortedCourses, setSortedCourses] = useState(
-            sortCourses(coursesData, sortKey)
-      );
 
-      const onChangeFilter = useCallback((text) => {
+      const onChangeFilter = (text) => {
             setSortKey(text);
-      }, []);
-
-
-      useEffect(() => {
-            /*if (!SORTS_KEYS.includes(sortKey)) {
-                   navigate('.');
-                   //set sortKey by null
-
-                   setSortKey(sortKey);
-                   console.log(sortedCourses);
-                   setSortedCourses([...coursesData]);
-                   console.log(sortedCourses);
-
-             }*/
-            setSortedCourses(sortCourses(coursesData, sortKey));
-      }, [sortKey]);
+      };
 
       return (
             <>
@@ -77,7 +59,7 @@ function Patients() {
                               : <h1>Все пациенты:</h1>
                   }
                   {
-                        sortedCourses.map((patient => {
+                        toSortPatients(rawPatients, sortKey).map((patient => {
                               return <PatientCard key={patient.id}  {...patient}/>
                         }))
                   }

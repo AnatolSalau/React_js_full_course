@@ -1,4 +1,4 @@
-# Lesson 26 React Router hooks v1
+# Lesson 26 React Router hooks v2
 
 ## Available Scripts
 

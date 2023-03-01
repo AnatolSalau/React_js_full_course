@@ -1,9 +1,8 @@
-import React from "react";
 import style from './SortedPanel.module.css'
 import {Link} from "react-router-dom";
 
 function SortedPanel({labels, onClick}) {
-      console.log("but");
+      console.log("Render SortedPanel");
       return (
             <div className={style.sortedPanel}>
                   {
@@ -24,4 +23,4 @@ function SortedPanel({labels, onClick}) {
       )
 }
 
-export default React.memo(SortedPanel);
+export default SortedPanel;

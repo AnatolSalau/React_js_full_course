@@ -1,7 +1,7 @@
 import {NavLink} from "react-router-dom";
 
 function Menu() {
-
+      console.log('Render Меню')
       const toggleIsActiveCss = ({isActive}) => {
             return isActive ? 'activeLink' : 'link';
       };
