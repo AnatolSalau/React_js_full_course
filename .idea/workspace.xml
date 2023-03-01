@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="lesson_26_npm_query_string">
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Sorted patients by function without useEffect">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/public/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/public/android-chrome-192x192.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/public/android-chrome-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/public/android-chrome-512x512.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/public/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/public/apple-touch-icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/public/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/public/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/public/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/public/favicon-32x32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Contacts.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Contacts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/NotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Patient.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Patient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/PatientCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/PatientCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/Patients.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Patients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/SortedPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/SortedPanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/components/SortedPanel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/SortedPanel.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/data/patients.json" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/data/patients.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_25_react_router_v1/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/layouts/MainLayout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,8 +57,18 @@
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/lesson_26_react_router_v2/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -103,6 +84,7 @@
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
@@ -346,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677516718256</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Sorted patients by function without useEffect">
+      <created>1677659055131</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1677659055131</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,7 +371,8 @@
     <MESSAGE value="Patient list with link." />
     <MESSAGE value="lesson_24_todo_app_v2&#10;toggle handler" />
     <MESSAGE value="lesson_26_npm_query_string" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson_26_npm_query_string" />
+    <MESSAGE value="Sorted patients by function without useEffect" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted patients by function without useEffect" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
