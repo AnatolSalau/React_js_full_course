@@ -8,9 +8,12 @@ import './App.css';
 import Patients from "./components/Patients";
 import Patient from "./components/Patient";
 
+/**
+ * Specify all paths in the application
+ */
 function App() {
       return (
-            <HashRouter>
+            <BrowserRouter>
                   <div className="App">
                         <Routes>
                               <Route path="/" element={<MainLayout/>}>
@@ -23,7 +26,7 @@ function App() {
                               </Route>
                         </Routes>
                   </div>
-            </HashRouter>
+            </BrowserRouter>
       );
 }
 

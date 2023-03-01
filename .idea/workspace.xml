@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Sorted patients by function without useEffect">
+    <list default="true" id="3bf1d539-cf59-4ae1-b470-559ce26b81f3" name="Changes" comment="Sorted patients by function without useEffect&#10;HashRouter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_26_react_router_v2/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Patient.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Patient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Patients.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/components/Patients.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_26_react_router_v2/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26_react_router_v2/src/layouts/MainLayout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +55,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -57,7 +65,7 @@
       <recent name="D:\REACT\Projects\React_js_full_course\91_template_project\public" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -83,8 +91,8 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.Debug Application" />
-      <item itemvalue="npm.start" />
       <item itemvalue="npm.build" />
+      <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
@@ -117,6 +125,7 @@
       <workItem from="1677226466678" duration="13613000" />
       <workItem from="1677478497061" duration="19072000" />
       <workItem from="1677516094038" duration="3218000" />
+      <workItem from="1677661154188" duration="2823000" />
     </task>
     <task id="LOCAL-00002" summary="Build React app without server">
       <created>1676023274548</created>
@@ -335,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677659055131</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Sorted patients by function without useEffect&#10;HashRouter">
+      <created>1677659634870</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1677659634870</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +388,8 @@
     <MESSAGE value="lesson_24_todo_app_v2&#10;toggle handler" />
     <MESSAGE value="lesson_26_npm_query_string" />
     <MESSAGE value="Sorted patients by function without useEffect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sorted patients by function without useEffect" />
+    <MESSAGE value="Sorted patients by function without useEffect&#10;HashRouter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sorted patients by function without useEffect&#10;HashRouter" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

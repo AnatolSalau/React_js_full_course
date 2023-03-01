@@ -6,13 +6,16 @@ import rawPatients from '../data/patients.json'
 import PatientCard from "./PatientCard";
 import SortedPanel from "./SortedPanel";
 
-
+/**
+ * We show all patients sorted depending on the key
+ * taken from the parameters from the url
+ */
 function Patients() {
-      console.log("-------------------Render : Пациенты-------------------");
-
+      // all possible combinations
       const SORTS_KEYS = ['id', 'slug', 'title', 'measure'];
 
       function toSortPatients(patients, key) {
+            // return original patients if verification fails
             if (!key || !SORTS_KEYS.includes(key)) {
                   return patients;
             }
@@ -22,9 +25,6 @@ function Patients() {
             });
             return sortedCourses;
       }
-
-      //get navigate
-      //const navigate = useNavigate();
 
       //get location ()
       /*
@@ -42,17 +42,16 @@ function Patients() {
       /*
             measure
        */
-
       let [sortKey, setSortKey] = useState(query.sort);
 
-
-      const onChangeFilter = (text) => {
+      //change key on button click
+      const onChangeKeyHandler = (text) => {
             setSortKey(text);
       };
 
       return (
             <>
-                  <SortedPanel labels={SORTS_KEYS} onClick={onChangeFilter}/>
+                  <SortedPanel labels={SORTS_KEYS} onClick={onChangeKeyHandler}/>
                   {
                         (sortKey && SORTS_KEYS.includes(sortKey))
                               ? <h1>{`Пациенты отсортированные по ${sortKey}`}</h1>

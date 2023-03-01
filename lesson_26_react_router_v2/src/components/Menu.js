@@ -1,7 +1,9 @@
 import {NavLink} from "react-router-dom";
 
+/**
+ * Navigate between paths using links
+ */
 function Menu() {
-      console.log('Render Меню')
       const toggleIsActiveCss = ({isActive}) => {
             return isActive ? 'activeLink' : 'link';
       };

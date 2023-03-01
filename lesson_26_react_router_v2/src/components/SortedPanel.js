@@ -2,7 +2,6 @@ import style from './SortedPanel.module.css'
 import {Link} from "react-router-dom";
 
 function SortedPanel({labels, onClick}) {
-      console.log("Render SortedPanel");
       return (
             <div className={style.sortedPanel}>
                   {

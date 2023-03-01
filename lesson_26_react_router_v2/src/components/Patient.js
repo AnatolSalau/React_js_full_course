@@ -1,10 +1,14 @@
-import {Link, useLocation, useNavigate, useParams} from "react-router-dom";
+import {Link, useNavigate, useParams} from "react-router-dom";
 import dataPatients from "../data/patients.json";
-import NotFound from "./NotFound";
 import {useEffect} from "react";
 
+/**
+ * We show different patients depending
+ * on which parameter is on the way
+ */
 function Patient() {
-
+      //Get path param from url
+      //<Route path="patients/:slug" element={<Patient/>}/>
       const {slug} = useParams();
 
       const navigate = useNavigate();
@@ -31,7 +35,6 @@ function Patient() {
       }*/
 
       //Second example simply navigate by useNavigate() and useEffect hooks
-
       useEffect(() => {
             if (!findPatientBySLug) {
                   navigate('..', {relative: 'path'});
